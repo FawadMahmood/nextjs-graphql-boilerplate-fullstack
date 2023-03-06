@@ -1,0 +1,6 @@
+schema: http://127.0.0.1:3000/api/graphql
+documents: "./src/**/*.graphql"
+generates:
+  ./src/generated/graphql.ts:
+    plugins:
+      - typescript
